@@ -1,8 +1,11 @@
 #include <stdio.h>
+
 /**
- * main - Entry
+ * main - Entry point
+ *
  * Return: Always 0
  */
+
 int main(void)
 {
 	printf("Size of a char: %1u byte(s)\n", sizeof(char));
