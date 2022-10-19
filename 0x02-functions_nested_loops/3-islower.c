@@ -6,5 +6,5 @@
  */
 int _islower(int c)
 {
-	return (c >= 'a' && c <= 'z' c++);
+	return (c >= 'a' && c <= 'z');
 }
