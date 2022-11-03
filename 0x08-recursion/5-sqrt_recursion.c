@@ -3,8 +3,8 @@
 int _sqrt(int, int);
 
 /**
- * _sqrt_recursion - function that returns natural square root of a number
- * @n: parameter to be squared
+ * _sqrt_recursion -> sqrt using recursion
+ * @n: parameter to be sqrt
  * Return: square root of a number
  */
 
@@ -14,13 +14,15 @@ int _sqrt_recursion(int n)
 }
 
 /**
- * _sqrt_recursion -> recursive square root
+ * _sqrt -> recursive square root
  * @n: number
- * @i: iteration
+ * @i: iterator
  * Return: a number
  */
 int _sqrt(int n, int i)
 {
+	int sqaure = i * i;
+
 	if (square > n)
 		return (-1);
 	if (square == n)
