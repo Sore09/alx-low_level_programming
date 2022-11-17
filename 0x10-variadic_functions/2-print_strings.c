@@ -5,7 +5,7 @@
 /**
  * print_strings - prints string
  * @separator: string to be printed between the strings
- * n: number of strings to the function
+ * @n: number of strings to the function
  *
  * Return: no return
  */
